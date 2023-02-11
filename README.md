@@ -6,4 +6,6 @@ The data structure implemented in this project is a stack. A stack is used to st
 In this implementation when the stack size is less than than the number of unspecified cells it tries to add the next possible cell by pushing it on. If the value is not valid then the cell is popped off. Then it backtracks and tries the next possible cell. This process is repeated for the entire board. The stack is useful here because a cell is pushed on and popped off and tried until it works. These useful methods are specific to the stack implementation.
 
 When the Sudoku class is run with 10 locked values, then 20, then 30, and then 40 it takes longer to solve the board as the number increases. Eventually the board is unsolvable. The lower the number is, the quicker the board is solved. This makes sense because there are more valid values on the board when less cells are locked. Eventually when many cells are locked there are very few options for valid values. This causes the board to take longer to solve because more values must be tried. Below on this grid the results are shown for runtime in nanoseconds.
+
+
 <img width="329" alt="Screen Shot 2023-02-10 at 11 33 40 PM" src="https://user-images.githubusercontent.com/113323340/218286113-42060683-9d9b-4883-8fb2-ca8ba16293d3.png">
