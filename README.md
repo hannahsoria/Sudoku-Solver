@@ -7,5 +7,5 @@ In this implementation when the stack size is less than than the number of unspe
 
 When the Sudoku class is run with 10 locked values, then 20, then 30, and then 40 it takes longer to solve the board as the number increases. Eventually the board is unsolvable. The lower the number is, the quicker the board is solved. This makes sense because there are more valid values on the board when less cells are locked. Eventually when many cells are locked there are very few options for valid values. This causes the board to take longer to solve because more values must be tried. Below on this grid the results are shown for runtime in nanoseconds.
 
+https://user-images.githubusercontent.com/113323340/218287234-16edf65d-2c3d-4a45-baed-a9d46d0d26ff.mov
 
-<img width="329" alt="Screen Shot 2023-02-10 at 11 33 40 PM" src="https://user-images.githubusercontent.com/113323340/218286113-42060683-9d9b-4883-8fb2-ca8ba16293d3.png">
